@@ -1,0 +1,6 @@
+{
+    "python.unitTest.nosetestArgs": [
+        "."
+    ],
+    "python.unitTest.nosetestsEnabled": true
+}

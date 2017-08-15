@@ -23,7 +23,7 @@ def rev_word(s):
         i+=1 
     
     # return ' '.join(reversed(words))
-    return words
+    return final_output(words)
 
     pass
 
@@ -33,16 +33,38 @@ def final_output(words):
 
     result =""
     while i>-1:        
-        result +=words[i] + ' '
+        result += words[i]
+        if i != 0:
+            result += ' '
         i-=1
     
     return result 
     pass
     
 res = rev_word("hi john,     are you ready to go?")
-print(final_output(res))
+print(res)
 #go? to ready you are John,Hi
 
 
-rev_word("    space before")
+print(rev_word("    space before"))
 #before space
+
+
+"""
+RUN THIS CELL TO TEST YOUR SOLUTION
+"""
+
+from nose.tools import assert_equal
+
+class ReversalTest(object):
+    
+    def test(self,sol):
+        assert_equal(sol('    space before'),'before space')
+        assert_equal(sol('space after     '),'after space')
+        assert_equal(sol('   Hello John    how are you   '),'you are how John Hello')
+        assert_equal(sol('1'),'1')
+        print ("ALL TEST CASES PASSED")
+        
+# Run and test
+t = ReversalTest()
+t.test(rev_word)
