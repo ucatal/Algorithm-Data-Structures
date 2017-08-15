@@ -19,3 +19,5 @@ res = convetToBaseTwo(21)
 
 
 print(res)
+formattedBinary= '{0:b}'.format(21)
+print(formattedBinary)

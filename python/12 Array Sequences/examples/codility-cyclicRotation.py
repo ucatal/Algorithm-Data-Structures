@@ -16,18 +16,35 @@
 # each element of array A is an integer within the range [−1,000..1,000].
 # In your solution, focus on correctness. The performance of your solution will not be the focus of the assessment.
 
-
-def solution(A, K):
-    if len(A) == 0:
+def rightrotation(A, K):
+    l = len(A)
+    if l == 0:
         return A
-
+    if K>=l:
+        K%=l
+    
     return A[-K:] + A[:-K]
+
+def leftRotation(A, K):
+    l = len(A)
+    if l == 0:
+        return A
+    if K>=l:
+        K%=l
+    
+    return A[K:] + A[:K]
 
 #TODO find second solution
  
-A = [3, 8, 9, 7, 6]
-K = 3
-print(solution(A, K))
+A = [1,2,3,4,5]
+K = 6
+print(rightrotation(A, K))
+print(leftRotation(A, K))
+print(A[-K:]) 
+print(A[:-K])
+print(A[K:]) 
+print(A[:K])
+
 # print(solution2(A, K))
 # print(A[-K:])
 # print(A[:-K])
