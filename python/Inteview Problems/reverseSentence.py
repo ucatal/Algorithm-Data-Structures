@@ -32,9 +32,9 @@ def final_output(words):
     i = lenght-1
 
     result =""
-    while i>-1:
-        i-=1
+    while i>-1:        
         result +=words[i] + ' '
+        i-=1
     
     return result 
     pass
