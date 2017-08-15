@@ -21,32 +21,32 @@ def solution(A, K):
     if len(A) == 0:
         return A
 
-    K = K % len(A)
     return A[-K:] + A[:-K]
 
-
-def solution2(A, K):
-    N = len(A)
-    if K is 0:
-        return A
-    if K > N:
-        K %= A
-    if K is 0:
-        return A
-    temparr = [N]
-
-    for i in range(N):
-        if i < K:
-            temparr[i] = A[N + i - K]
-        else:
-            temparr[i] = A[i - K]
-
-    return temparr
-
-
+#TODO find second solution
+ 
 A = [3, 8, 9, 7, 6]
 K = 3
 print(solution(A, K))
-print(solution2(A, K))
+# print(solution2(A, K))
 # print(A[-K:])
 # print(A[:-K])
+     #         if (l == 0 || K == 0)
+    #         {
+    #             return A;
+    #         }
+    #         if (start < 0)
+    #         {
+    #             start = -(start - 1);
+    #         }
+    #         for (int i = start; i < l; i++)
+    #         {
+    #             outA[j] = A[i];
+    #             j++;
+    #         }
+    #         for (int m = 0; m < start; m++)
+    #         {
+    #             outA[j] = A[m];
+    #             j++;
+    #         }
+    #         return outA;
