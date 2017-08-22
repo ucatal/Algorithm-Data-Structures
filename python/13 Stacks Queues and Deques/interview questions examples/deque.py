@@ -1,9 +1,12 @@
+# Implement a Deque
+# Finally, implement a Deque class! It should be able to do the following:
+# Check if its empty
+# Add to both front and rear
+# Remove from Front and Rear
+# Check the Size
 
-# double ended queue
-# https://github.com/jmportilla/Python-for-Algorithms--Data-Structures--and-Interviews/blob/master/Stacks%2C%20Queues%20and%20Deques/Implementation%20of%20Deque.ipynb
 
-
-class Deque:
+class Deque(object):
     def __init__(self):
         self.items = []
 
@@ -25,12 +28,4 @@ class Deque:
     def size(self):
         return len(self.items)
 
-
-d = Deque()
-d.addFront('hello')
-d.addRear('world')
-
-print(d.size())
-print(d.removeFront() + ' ' + d.removeRear())
-
-print(d.size())
+    pass
