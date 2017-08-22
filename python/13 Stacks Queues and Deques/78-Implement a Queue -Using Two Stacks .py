@@ -1,5 +1,5 @@
 
-Implement a Queue - Using Two Stacks
+# Implement a Queue - Using Two Stacks
 # Given the Stack class below, implement a Queue class using two stacks! Note, this is a "classic" interview problem. Use a Python list data structure as your Stack.
 class Queue2Stacks(object):
     
@@ -10,7 +10,7 @@ class Queue2Stacks(object):
         self.stack2 = []
      
     def enqueue(self,element):
-        
+        x
         # FILL OUT CODE HERE
         pass
     
