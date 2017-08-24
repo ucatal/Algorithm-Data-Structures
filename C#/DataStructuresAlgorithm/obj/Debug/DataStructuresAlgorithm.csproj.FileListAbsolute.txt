@@ -5,3 +5,10 @@ C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\C#\
 C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.csprojResolveAssemblyReference.cache
 C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.dll
 C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.pdb
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\bin\Debug\DataStructuresAlgorithm.dll
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\bin\Debug\DataStructuresAlgorithm.pdb
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\bin\Debug\nunit.framework.dll
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\bin\Debug\nunit.framework.xml
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.csprojResolveAssemblyReference.cache
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.dll
+C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.pdb

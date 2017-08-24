@@ -47,12 +47,26 @@
     <Compile Include="FindMissingElementInArrays.cs" />
     <Compile Include="LargestContinuousProblem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Toptal-Task3.cs" />
+    <Compile Include="Toptal-Task1-SingleSwapSortArray.cs" />
+    <Compile Include="Toptal-Task2-Zigzag-BinaryTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Toptal\task1-1.PNG" />
+    <Content Include="Toptal\task1-2.PNG" />
+    <Content Include="Toptal\task2-1.PNG" />
+    <Content Include="Toptal\task2-2.PNG" />
+    <Content Include="Toptal\task2-3.PNG" />
+    <Content Include="Toptal\task3-1.PNG" />
+    <Content Include="Toptal\task3-2.PNG" />
+    <Content Include="Toptal\task3-3.PNG" />
+    <Content Include="Toptal\taskresult.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
