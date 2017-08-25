@@ -12,3 +12,11 @@ C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\alg
 C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.csprojResolveAssemblyReference.cache
 C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.dll
 C:\UMUT\Courses\python-for-data-structures-algorithms-and-interviews\Samples\algorithmdatastructures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.pdb
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.csprojResolveAssemblyReference.cache
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.csproj.CoreCompileInputs.cache
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\bin\Debug\DataStructuresAlgorithm.dll
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\bin\Debug\DataStructuresAlgorithm.pdb
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\bin\Debug\nunit.framework.dll
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\bin\Debug\nunit.framework.xml
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.dll
+C:\Users\umut.catal\Documents\GitHub\Algorithm-Data-Structures\C#\DataStructuresAlgorithm\obj\Debug\DataStructuresAlgorithm.pdb

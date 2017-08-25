@@ -8,9 +8,8 @@ namespace DataStructuresAlgorithm
     [TestFixture]
     public class SingleSwapSortArray
     {
-        
         [TestCase(new int[] { 1, 5, 3, 3, 7 }, true)]
-        
+
         public void TestCase1(int[] input, bool expextedResult)
         {
             bool result = false;
@@ -25,7 +24,7 @@ namespace DataStructuresAlgorithm
 
             Assert.AreEqual(result, expextedResult);
         }
-        
+
         public void Swap(int[] input, int leftIndex, int rightIndex)
         {
             int numberLeft = input[leftIndex];

@@ -23,8 +23,9 @@ namespace DataStructuresAlgorithm
 
             Assert.AreEqual(expectedResult, result);
         }
+
         public int Finder(int[] array1, int[] array2)
-        { //XOR 
+        { //XOR
             //Linear
             int result = 0;
             foreach (var item in array1)
@@ -37,6 +38,7 @@ namespace DataStructuresAlgorithm
             }
             return result;
         }
+
         public int FinderMy(int[] array1, int[] array2)
         {//O(N)
             var array1Sorted = array1.OrderBy(s => s).ToArray();
@@ -50,11 +52,7 @@ namespace DataStructuresAlgorithm
                 }
             }
 
-
-
             return result;
         }
-
     }
-
 }
