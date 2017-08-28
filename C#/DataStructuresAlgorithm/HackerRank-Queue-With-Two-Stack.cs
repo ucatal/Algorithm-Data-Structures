@@ -20,7 +20,7 @@ namespace DataStructuresAlgorithm
             List<string> input = new List<string> { "1 42", "2", "1 14", "3", "1 28", "3", "1 60", "1 78", "2", "2" };
             List<int> expecetedResult = new List<int> { 14, 14 };
 
-            var result = Result(input);
+            var result = Solve(input);
 
             Assert.NotNull(result);
 
@@ -29,7 +29,7 @@ namespace DataStructuresAlgorithm
             Assert.That(isEqual);
         }
 
-        private List<int> Result(IReadOnlyList<string> inputs)
+        private List<int> Solve(IReadOnlyList<string> inputs)
         {
             List<int> result = new List<int>();
             Stack<int> innerStack = new Stack<int>();

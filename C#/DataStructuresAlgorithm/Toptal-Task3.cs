@@ -14,7 +14,7 @@ namespace DataStructuresAlgorithm
             int D = 1;
             int expectedResult = 3;
 
-            var result = Result(A, D);
+            var result = Solve(A, D);
 
             Assert.AreEqual(result, expectedResult);
         }
@@ -26,12 +26,12 @@ namespace DataStructuresAlgorithm
             int D = 3;
             int expectedResult = -1;
 
-            var result = Result(A, D);
+            var result = Solve(A, D);
 
             Assert.AreEqual(result, expectedResult);
         }
 
-        private int Result(int[] A, int D)
+        private int Solve(int[] A, int D)
         {
             int N = A.Length;
             if (D > N)
