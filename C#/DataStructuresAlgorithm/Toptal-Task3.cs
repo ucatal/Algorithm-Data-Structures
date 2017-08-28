@@ -1,28 +1,48 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using NUnit.Framework;
 
 namespace DataStructuresAlgorithm
 {
-    class Task3Test
+    /// <summary>
+    /// it's solution of toptal task 3
+    /// </summary>
+    public class ToptalTask3Test
     {
-        static int Task3(int[] A, int D)
+        [Test]
+        public void TestCaseOne()
         {
-            //write your code in C# 6.0 with .NET 4.5 (Mono)
+            int[] A = { 3, 2, 1 };
+            int D = 1;
+            int expectedResult = 3;
 
+            var result = Result(A, D);
+
+            Assert.AreEqual(result, expectedResult);
+        }
+
+        [Test]
+        public void TestCaseTwo()
+        {
+            int[] A = { 1, 2, 3, 4, -1, -1, -1 };
+            int D = 3;
+            int expectedResult = -1;
+
+            var result = Result(A, D);
+
+            Assert.AreEqual(result, expectedResult);
+        }
+
+        private int Result(int[] A, int D)
+        {
             int N = A.Length;
             if (D > N)
                 return 0;
             int position = -1;
-            int oldPosition = -1;
             int time = 0;
             int stonesWontSurface = 0;
 
             while (stonesWontSurface != D)
             {
-                oldPosition = position;
+                var oldPosition = position;
                 stonesWontSurface = 0;
 
                 for (int i = position + D; i > position; i--)
@@ -42,7 +62,6 @@ namespace DataStructuresAlgorithm
 
                 if (position == oldPosition)
                 {
-                    //optimization,no need to increment time one by one
                     int minimumTimeToStoneSurfacing = int.MaxValue;
                     for (int i = position + D; i > position; i--)
                     {
@@ -52,11 +71,9 @@ namespace DataStructuresAlgorithm
                         }
                     }
                     time = minimumTimeToStoneSurfacing;
-                    //time++;
                 }
             }
             return time;
         }
-
     }
 }

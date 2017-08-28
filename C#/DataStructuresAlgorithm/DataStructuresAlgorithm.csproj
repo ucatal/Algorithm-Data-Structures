@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="BalancedBrackets.cs" />
     <Compile Include="FindMissingElementInArrays.cs" />
+    <Compile Include="HackerRank-Queue-With-Two-Stack.cs" />
     <Compile Include="LargestContinuousProblem.cs" />
     <Compile Include="MaximumElementInStacks.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

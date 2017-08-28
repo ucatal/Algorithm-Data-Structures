@@ -1,9 +1,11 @@
-// https://www.hackerrank.com/challenges/balanced-brackets
 using NUnit.Framework;
 using System.Collections.Generic;
 
 namespace DataStructuresAlgorithm
 {
+    /// <summary>
+    /// https://www.hackerrank.com/challenges/balanced-brackets
+    /// </summary>
     public class BalancedBrackets
     {
         [TestCase("(())", true)]
